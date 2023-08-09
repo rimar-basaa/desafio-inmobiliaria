@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #515151;
+    color: white;
+}
+.main {
+    width: 99vw;
+    margin: 10px auto;
+    display: flex;
+    column-gap: 10px;
+}
+.filtro {
+    width: 20%;
+    min-width: 180px;
+    height: 95vh;
+    background-color: #414141;
+    border: 2px solid gray;
+    border-radius: 10px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;    
+}
+.input {
+    width: 80%;
+    height: 25px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+}
+.btn {
+    width: 80%;
+    height: 25px;
+    color: white;
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 150px;
+}
+.btn:hover {
+    background-color: royalblue;
+    border: 1px solid royalblue;
+    cursor: pointer;
+}
+.resultado {
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+}
+.propiedades {
+    width: 80%;
+    height: 95vh;    
+}
+.title {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+.containerCard {
+    display: flex;
+    flex-wrap: wrap;        
+}
+.card {
+    width: 220px;
+    height: 310px;
+    margin: 15px;    
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;    
+}
+.img {
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;   
+}
+.imgNum01 {
+    background-image: url(../img/imgNum01.jpg);    
+}
+.imgNum02 {
+    background-image: url(../img/imgNum02.jpg);    
+}
+.imgNum03 {
+    background-image: url(../img/imgNum03.jpg);        
+}
+.imgNum04 {
+    background-image: url(../img/imgNum04.jpg);    
+}
+.imgNum05 {
+    background-image: url(../img/imgNum05.jpg);    
+}
+.imgNum06 {
+    background-image: url(../img/imgNum06.jpg);    
+}
+.mainInfo {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+.pinfo {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.btn2 {
+    width: 100px;    
+    margin: 10px auto;    
+    align-self: center;
+}

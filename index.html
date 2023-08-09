@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Inmobiliaria</title>
+</head>
+<body>
+    <div class="main">
+
+        <section class="filtro">
+            <h4 class="title">Cantidad habitaciones</h4>
+            <input type="number" class="input" placeholder="Cantidad" id="habit">
+            <h4 class="title">Metros cuadrados</h4>
+            <input type="number" class="input" placeholder="Desde" id="desde">
+            <input type="number" class="input" placeholder="Hasta" id="hasta">
+            <button class="btn" id="btn">Buscar</button>            
+            <p id="resultado" class="resultado"></p>
+        </section>
+
+        <section class="propiedades">            
+            <div class="containerCard" id="containerCard"></div>    
+        </section>
+
+    </div>
+    <script src="./assets/js/main.js"></script>    
+</body>
+</html>
